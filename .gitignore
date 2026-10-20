@@ -28,3 +28,6 @@ ui/.edge-headless/
 .env
 .env.*
 !.env.example
+
+data/preferences.json
+data/roots.json
