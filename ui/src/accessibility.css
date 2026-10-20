@@ -1,0 +1,11 @@
+html[data-reduced-motion='true'] *,
+html[data-reduced-motion='true'] *::before,
+html[data-reduced-motion='true'] *::after {
+  animation-duration: .01ms !important;
+  animation-iteration-count: 1 !important;
+  scroll-behavior: auto !important;
+  transition-duration: .01ms !important;
+}
+.thread-select-label { display:flex; align-items:center; gap:7px; color:#788da2; font:8px 'DM Mono'; }
+.thread-select-label select { max-width:150px; color:#c3d1df; font-size:9px; padding:7px; }
+@media (max-width:600px) { .thread-select-label { width:100%; justify-content:space-between; } .thread-select-label select { max-width:72%; flex:1; } }
