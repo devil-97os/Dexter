@@ -1,3 +1,13 @@
+﻿__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
 
-data/index.db
-data/paths.db
+ui/node_modules/
+ui/dist/
+
+data/*.db
+data/*.db-journal
