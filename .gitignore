@@ -11,3 +11,20 @@ ui/dist/
 
 data/*.db
 data/*.db-journal
+
+# Browser automation profiles and generated dependencies
+ui/.edge-headless/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+
+# Local databases and SQLite sidecar files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Local secrets
+.env
+.env.*
+!.env.example
